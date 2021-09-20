@@ -1,0 +1,22 @@
+.card {
+    margin: 10px;
+    width: calc(33% - 20px);
+    height: 128px;
+    display: flex;
+    border: rgb(0, 0, 0) solid;
+    background-color: rgb(192, 192, 192);
+    min-width: 400px;
+
+    &__image {
+        height: 128px;
+        width: 128px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0 10px;
+    }
+}
